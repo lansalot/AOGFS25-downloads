@@ -1,1 +1,98 @@
-# Download Site
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AOG Connector for FS25 - Downloads</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    h1 { color: #2c3e50; }
+    .download-box {
+      background: #f8f9fa;
+      border-left: 4px solid #007bff;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 1rem;
+      overflow-x: auto;
+    }
+    code {
+      background: #f0f0f0;
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+    }
+    .warning {
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+    footer {
+      margin-top: 3rem;
+      color: #666;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h1>AOG Connector for Farming Simulator 25</h1>
+
+  <div class="download-box">
+    <h2>Latest Release</h2>
+
+    <p><strong>Version:</strong> 0.1.0.0</p>
+
+    <p>
+      <strong>Download:</strong>
+      <a href="AOGConnector-0.1.0.0.zip">
+        AOGConnector-0.1.0.0.zip
+      </a>
+      (49246 bytes)
+    </p>
+
+    <p>
+      <strong>SHA-256:</strong>
+      <code>FC8EF28031FEBB0F542E9E69EEF3937F8515F303A1DF5236F678EF7A1463A90A</code>
+    </p>
+
+    <p>Verify after download:</p>
+
+    <pre>Get-FileHash .\AOGConnector-0.1.0.0.zip -Algorithm SHA256</pre>
+  </div>
+
+  <h2>Requirements</h2>
+  <ul>
+    <li>Windows 64-bit PC running Farming Simulator 25</li>
+    <li>Python 3.12 x64 with launcher <code>py</code></li>
+    <li>AgOpenGPS/AgIO (separate installation)</li>
+  </ul>
+
+  <h2>Quick Start</h2>
+  <ol>
+    <li>Copy <code>FS25_AOGConnector.zip</code> to your FS25 mods folder.</li>
+    <li><strong>DO NOT extract</strong> the inner mod ZIP.</li>
+    <li>Run <code>Setup.cmd</code> then <code>Start-Bridge.cmd</code> while playing.</li>
+  </ol>
+
+  <div class="warning">
+    <strong>&#9888;&#65039; Warning:</strong>
+    Windows-only, single-player only.
+    Bridge must run on FS25 PC.
+  </div>
+
+  <footer>
+    <p>
+      Built automatically by GitHub Actions.<br>
+      Built: 2026-09-19 21:28 UTC
+    </p>
+  </footer>
+</body>
+</html>
