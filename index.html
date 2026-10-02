@@ -51,41 +51,41 @@
     <h3>THIS is the only place to come for releases - anything else from any other source may be outdated or unsafe.</h3>
     <p>Please always verify the SHA-256 checksum after downloading to ensure the integrity of the file.</p>
 
-    <p><strong>Version:</strong> 1.0.0.5</p>
+    <p><strong>Version:</strong> 0.1.1.0</p>
 
     <p>
       <strong>Download:</strong>
-      <a href="AOGConnector-1.0.0.5.zip">
-        AOGConnector-1.0.0.5.zip
+      <a href="AOGConnector-0.1.1.0.zip">
+        AOGConnector-0.1.1.0.zip
       </a>
-      (51546 bytes)
+      (62973 bytes)
     </p>
 
     <p>
       <strong>SHA-256:</strong>
-      <code>18BA1AA79569F72238E864A0B2ECC4EAE46097EAAB057F652031FBBC92FCA9D5</code>
+      <code>B16029EB44793AB216F0CB3E941CA49773493E4FE8741014A32840A5E39B7269</code>
     </p>
 
     <p>Verify after download:</p>
 
-    <pre>Get-FileHash .\AOGConnector-1.0.0.5.zip -Algorithm SHA256</pre>
+    <pre>Get-FileHash .\AOGConnector-0.1.1.0.zip -Algorithm SHA256</pre>
   </div>
 
   <h2>Requirements</h2>
   <ul>
     <li>Windows 64-bit PC running Farming Simulator 25</li>
-    <li>Python x64 with launcher <code>py</code></li>
+    <li>Python x64 - the launcher offers to install it, or you can use <a href="https://www.python.org/downloads/windows/">python.org</a></li>
     <li><a href="https://www.agopengps.com/">AgOpenGPS/AgIO (separate installation)</a></li>
     <li>Ideally - agOpenGPS running on a separate machine (with touchscreen!) from the FS25 PC.</li>
   </ul>
 
   <h2>Quick Start</h2>
   <ol>
-    <li>Unzip the downloaded AOGConnector-1.0.0.5.zip file to a temporary location.</li>
+    <li>Unzip the downloaded AOGConnector-0.1.1.0.zip file to a temporary location.</li>
     <li>If you are of a technical mind, you can inspect the contents of the ZIP file or the setup scripts before copying it to your mods folder.</li>
     <li>Copy <code>FS25_AOGConnector.zip</code> to your FS25 mods folder.</li>
     <li><strong>DO NOT extract</strong> the inner mod ZIP.</li>
-    <li>Run <code>Setup.cmd</code> then <code>Start-Bridge.cmd</code> while playing.</li>
+    <li>Run <code>Start-AOGConnector.cmd</code> while playing. It checks Python and dependencies, then starts the bridge.</li>
   </ol>
 
   <div class="warning">
@@ -97,7 +97,7 @@
   <footer>
     <p>
       Built automatically by GitHub Actions.<br>
-      Built: 2026-09-23 17:16 UTC
+      Built: 2026-10-02 19:16 UTC
     </p>
   </footer>
 </body>
